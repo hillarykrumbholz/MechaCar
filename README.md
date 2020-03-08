@@ -50,7 +50,7 @@ Lot 3: There is a p-value of 0.04168 meaning that we are able to reject the null
 
 To get a more informed look as to how MechaCar will compete with comparable cars currently on the market, we need to consider additional metrics that consumers are commonly influenced by and consider when purchasing a new car. In this report we will be taking a look at braking performance, acceleration, trunk and cargo space, and MSRP. 
 
-1. Braking Perforamnce 
+### 1. Braking Perforamnce <br>
 Is the mean braking performance - the stopping distance measured from when a car is going 60 mph to standstill when on wet and dry pavement - of MechaCar statistically different from competing cars on the market? 
 
 - Null Hypothesis: There is no statistical difference in braking perfomrance between MechaCar and the competitor vehicle.
@@ -58,7 +58,7 @@ Is the mean braking performance - the stopping distance measured from when a car
 - How to Test: A Two-Sample t-test will be used to test the measured difference between the distribution mean of MechaCar's sample and the competitor's sample. 
 - Data to Collect: Stopping distance measured from when a car begins decelerating at 60 mph to being at a standstill. Units will be measured to the centimeter. 
 
-2. Acceleration 
+### 2. Acceleration <br>
 Is acceleration - the time it takes for a vehicle to reach 60 mph from a complete stop - of MechaCar statistically different from competing cars?
 
 - Null Hypothesis: There is no statistical difference in acceleration between MechaCar and the competitor vehicle.
@@ -66,7 +66,7 @@ Is acceleration - the time it takes for a vehicle to reach 60 mph from a complet
 - How to Test: A Two-Sample t-test will be used to test the difference in time between the distribution mean of MechaCar's sample and the competitor's sample. 
 - Data to Collect: The time it takes for a car to reach 60 mph on a flat pavement straitaway. Units will be measured to the second.  
 
-3. Trunk and Cargo Space
+### 3. Trunk and Cargo Space <br>
 Is there a statistical difference in the cargo space of a vehicle model based on the car company? MechaCar wants to have a competitive vehicle for the current market, so we will want to be on par with some of the more popular car brands. For this metric, we will be focusing our attention on cars with enclosed trunks as they have a similar biuld to MechaCar. We will be looking at multiple vehicle models across a few automotice companies. We will not be taking SUV's or trucks into account. 
 
 - Null Hypothesis: There is no statistical difference in how much cargo space a vehicle has and the automotive company that designed it. 
@@ -74,7 +74,7 @@ Is there a statistical difference in the cargo space of a vehicle model based on
 - How to Test: A one-way ANOVA test will be used to test the means of a single dependent variable (measured trunk space) across independent variables (car models) within multiple groups (car companies).
 - Data to Collect: We will measure the trunk's usable volume by measuring the length, width and heigth and multiplying it all together to get the cargo room. Units will be in feet squared. 
 
-4. MSRP
+### 4. MSRP <br>
 Is the mean MSRP (manufacturer's suggested retail price) of MechaCar, statistically different from the leading competitor vehicles?
 
 - Null Hypothesis: There is no statistical difference in MSRP between MechaCar and the competitor vehicles.
