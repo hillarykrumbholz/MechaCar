@@ -29,18 +29,6 @@ Lot 3: There is a p-value of 0.04168 meaning that we are able to reject the null
 
 #Design Your Own Study
 
-write a short description of a statistical study that can quantify how the MechaCar outperforms the competition. In your study design, be sure to write about the following considerations:
-
-Think critically about what metrics you would think would be of interest to a consumer (cost, fuel efficiency, color options, etc.).
-Cost
-Hiway and City Fuel efficiency (mpg)
-
-Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
-
-Knowing what test should be used, what data should be collected? Hint: Look at the cheat sheetPreview the document for required variables.
-
-
-
 To get a more informed look as to how MechaCar will compete with comparable cars currently on the market, we need to consider additional metrics that consumers are commonly influenced by and consider when purchasing a new car. In this report we will be taking a look at braking performance, acceleration, trunk and cargo space, and MSRP. 
 
 1. Braking Perforamnce 
