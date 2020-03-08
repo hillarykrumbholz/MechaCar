@@ -20,21 +20,27 @@ The goal is to:
 
 ![MultipleLinearRegression](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/MultipleLinearRegressionTable.png)
 
-1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+### 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 To determine which variables provide a non-random amount of variance we want to look at the individual p-values [Pr(>|t|)], which represent the probability that each variable contributes a  random amount of variance to the linear model. A p-value of 0.05 or smaller indicates that there is enough evidence to reject the null hypothesis.
 
 Ground clearance and vehicle length reject the null hypothesis, meaning they are vehicle specifications that have an affect on vehicle performance. Their p-values are 2.13e-08 and 3.05e-12, respectively.Additionally, the interceprt rejects the null hypothesis and is statistically significant with a p-value of 1.87e-08. This means there are variables contributing to the variation in mpg that are not included in this dataset/model, and additional variables and observations still need to be collected. 
 
-2. Is the slope of the linear model considered to be zero? Why or why not?
+### 2. Is the slope of the linear model considered to be zero? Why or why not?
 
 No. First we want to look at the R-squared value, which is 0.7032 meaning that 70% of our mpg predictions will be correct using out model. The p-value for the multiple regression has a value of 2.277e-11, which is much smaller than our assumed significance of 0.05. This tells us that the slope of our linear model is NOT zero. 
 
-3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+### 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 No, only 2 (vehicle length and ground clearance) out of 4 of our variables are significant enough to predict the mpg of MechaCar prototypes. Also, the significant level of the intercept tells us that there are variables contributing to the mpg that are not accounted for in this dataset. 
 
 ## Summary Table
+
+Overall Summary Table:
+![SummaryTable](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/summaryTablePSI.png)
+
+Summary Table by Lot:
+![SummaryTableByLot](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/summaryTableByLotPSI.png)
 
 When looking at the summary table for all three lots, the variance is 62.29, indicating that the manufacturing of the coils meet the design specification of no excedding 100 pounds per inch. To get a better look at individual lots, another summary table was grouped by lots. From the data we can see that Lot 1 and 2 have a generally low variance of 0.98 and 7.7 pounds, respectively. Lot 1 and 2 are meeting the design specifications. When looking at Lot 3 we see that the variance is 170.28, which exceeds the 100 pounds per inch specification, meaning that lot 3 is not meeting the design specifications. 
 
@@ -44,8 +50,13 @@ Determine if the suspension coil’s pound-per-inch results are statistically di
 
 Null Hypothesis: There is no statistical difference between the mean pop and sample pop from each lot.
 
+![Lot1](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/Lot1_ttest.png)
 Lot 1: There is a p-value of 1 meaning that we fail to reject the null hypothesis and that there is no statistical difference between the lot 1 and the mean population.
+
+![Lot2](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/Lot2_ttest.png)
 Lot 2: There is a p-value of 0.6072 meaning that we fail to reject the null hypothesis and that there is no statistical difference between the lot 2 and the mean population.
+
+![Lot3](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/Lot3_ttest.png)
 Lot 3: There is a p-value of 0.04168 meaning that we are able to reject the null hypothesis and that there is a statistical difference between the lot 3 and the mean population.
 
 ## Design Your Own Study
