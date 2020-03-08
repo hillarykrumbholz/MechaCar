@@ -18,6 +18,8 @@ The goal is to:
 
 ## Multiple Linear Regression
 
+![MultipleLinearRegression](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/MultipleLinearRegressionTable.png)
+
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 To determine which variables provide a non-random amount of variance we want to look at the individual p-values [Pr(>|t|)], which represent the probability that each variable contributes a  random amount of variance to the linear model. A p-value of 0.05 or smaller indicates that there is enough evidence to reject the null hypothesis.
