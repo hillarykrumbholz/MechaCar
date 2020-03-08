@@ -36,10 +36,10 @@ No, only 2 (vehicle length and ground clearance) out of 4 of our variables are s
 
 ## Summary Table
 
-Overall Summary Table:
+Overall Summary Table: <br>
 ![SummaryTable](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/summaryTablePSI.png)
 
-Summary Table by Lot:
+Summary Table by Lot: <br>
 ![SummaryTableByLot](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/summaryTableByLotPSI.png)
 
 When looking at the summary table for all three lots, the variance is 62.29, indicating that the manufacturing of the coils meet the design specification of no excedding 100 pounds per inch. To get a better look at individual lots, another summary table was grouped by lots. From the data we can see that Lot 1 and 2 have a generally low variance of 0.98 and 7.7 pounds, respectively. Lot 1 and 2 are meeting the design specifications. When looking at Lot 3 we see that the variance is 170.28, which exceeds the 100 pounds per inch specification, meaning that lot 3 is not meeting the design specifications. 
@@ -50,13 +50,13 @@ Determine if the suspension coil’s pound-per-inch results are statistically di
 
 Null Hypothesis: There is no statistical difference between the mean pop and sample pop from each lot.
 
-![Lot1](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/Lot1_ttest.png)
+![Lot1](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/Lot1_ttest.png) <br>
 Lot 1: There is a p-value of 1 meaning that we fail to reject the null hypothesis and that there is no statistical difference between the lot 1 and the mean population.
 
-![Lot2](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/Lot2_ttest.png)
+![Lot2](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/Lot2_ttest.png) <br>
 Lot 2: There is a p-value of 0.6072 meaning that we fail to reject the null hypothesis and that there is no statistical difference between the lot 2 and the mean population.
 
-![Lot3](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/Lot3_ttest.png)
+![Lot3](https://github.com/hillarykrumbholz/MechaCar/blob/master/Images/Lot3_ttest.png) <br>
 Lot 3: There is a p-value of 0.04168 meaning that we are able to reject the null hypothesis and that there is a statistical difference between the lot 3 and the mean population.
 
 ## Design Your Own Study
